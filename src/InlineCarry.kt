@@ -1,3 +1,4 @@
+
 class InlineCarry {
     //inline  局部方法
     //crossinline 禁止非局部返回

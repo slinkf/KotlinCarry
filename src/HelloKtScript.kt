@@ -3,10 +3,6 @@ fun main() {
     runTakeUnless()
 }
 
-/**
- * 没有理由不用kotlin写脚本
- * kotlin与java联系密切
- */
 fun runThis() {
     // map filter let
     val hashMap = mutableListOf("123", "1233", "12334", "123124")
@@ -84,6 +80,10 @@ fun runTakeIf(){
     print("$takeIf")
 }
 
+/**
+ * 验证通过返回null
+ * 验证不通过返回对象
+ */
 fun runTakeUnless(){
     val str = "lidikun".takeUnless {
         it.length == 7
