@@ -1,3 +1,10 @@
+/**
+ *
+ * kotlin 操作符
+ *  with let apply run also takeIf takeUnLess
+ *
+ */
+
 fun main() {
     runTakeIf()
     runTakeUnless()
